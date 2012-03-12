@@ -1,0 +1,241 @@
+body {
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.div-outer {
+	padding-top: 0.5%;
+	padding-left: 15%;	
+}
+
+.div-header {
+	width: 80%;
+	height: 10%;
+	text-align: center;		
+}
+
+.div-banner {
+	width: 100%;
+	padding-bottom: 1%;
+	font-weight: bold;
+	letter-spacing: 5px;
+	word-spacing: 10px;
+	background: #95ADA8;
+	margin-bottom: 1%;
+	float: left;
+}
+
+.div-logo {
+	float: left;	
+	height: 70px;
+	margin-left:1%;
+	margin-bottom:1%;
+	margin-top: 0.5%;
+}	
+
+.div-companyname {
+ 	padding-top: 2%;
+ 	text-align: center;
+ 	width: 90%;
+}
+
+.div-tagline {	
+	float: right;
+	font-size: small;
+	padding-top: 2%;
+}
+
+.div-navigation {
+	width: 100%;
+	text-align: left;
+	float: left;
+	border: 1px solid;
+	padding-top: 1%;
+	padding-bottom: 1%;	
+	background: #DDE0AD;
+	margin-bottom: 1%;
+}
+
+.div-links-top {
+	width: 50%; 
+	padding-left: 0.75%;
+	float: left;
+}
+
+ul#ullinkstop {
+	margin: 0px;
+	padding:0;
+	list-style:none;	
+}
+
+ul#ullinkstop li {
+	display:inline
+}
+
+ul#ullinkstop li a {
+	text-decoration:none;
+	padding:5px 0;
+	width: 32.5%; 
+	background:#485e49;
+	color:#eee;
+	float:left;
+	text-align:center;
+	border-left:1px solid #fff;
+}
+
+ul#ullinkstop li a:hover {
+	background:#a2b3a1;
+	color:#000;
+}
+
+.div-search {
+	width: 48%;
+	float: left;
+	padding-left: 1%;
+	border-left-width: 1px;
+	border-left-style: solid;
+}
+
+.text-search {
+	width: 30%;
+}
+
+.div-main {
+	width: 75%; /* not 80% because of 5% padding-left */
+	border: 1px solid;
+	clear: both;
+	padding-left: 5%;
+	padding-top: 1.9%;
+	padding-bottom: 1.9%;
+}
+
+.text-small {
+	font-size: small;
+}
+
+.button-search {
+	padding: 0px;	
+}
+
+.text-bold {
+	font-weight: bold;
+}
+
+ul#uloptions li {
+	margin-top: 4.33%; 
+	margin-bottom: 4.33%;
+}
+
+.a-tabs {
+	text-decoration: none;
+	padding:5px 40px;
+	color: black;
+	font-weight: bold;
+	font-size: small;
+}
+
+.a-tabs:hover{
+	color: #95ADA9;
+}
+
+/* Login page */
+.div-login {
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+	background: #F5F6CE;
+	margin-left: 25.5%;
+	margin-top: 7%;
+	margin-bottom: 7.4%;
+	padding: 6%;	
+	width: 30%;
+}
+
+.div-login-title {
+	margin-top: 1%;
+	text-align: center;
+}
+
+.div-login-info {
+	text-align: left;
+	margin-top: 10%;
+	font-size: 13px;
+	padding-bottom: 15%;
+}
+
+.label-username {
+	margin-right: 7%;
+	margin-left: 2%;
+}
+
+.label-password {
+	margin-right: 10%;
+	margin-left: 2%;
+}
+
+.div-login-footer{
+	margin-left: 2%;
+}
+
+/*SearchResults Page*/
+
+.div-searchresults{
+	text-align:left;
+	float: left;
+}
+
+.div-searchresult-image{
+	margin-right:25%;
+	margin-left:5%;
+}
+
+.div-searchresult-details{
+	float:right;
+	margin-bottom: 2%;
+}
+
+.div-searchinfo{
+	padding-top:2%;
+	padding-bottom:9%;
+	padding-left:1%;
+	padding-right:0%;
+	margin-right:5%;
+	border-width:1px;
+	border-style:solid;
+}
+
+.div-maintext-search{
+	margin-top: 5%;
+	height: 80%;
+	width: 100%;
+	text-align: center;	
+}
+
+.div-content-search {
+	width:80%;
+	height:50%;	
+	border: 1px solid;	
+	margin-top: 1%;
+}
+
+.div-search-addtocart{
+	text-align:center;
+	margin-top:2%;
+	margin-left:2%;
+	clear:both;
+}
+
+.div-searchresultsfail-main {
+	clear:both;
+	margin-top: 1%; 
+	margin-bottom: 1%;
+	padding-top: 14.3%; 
+	padding-bottom: 14.3%; 
+	float: left;
+	width: 100%; 
+	height: 277px;
+}
+
+.text-qty {
+	width: 10%;
+}
